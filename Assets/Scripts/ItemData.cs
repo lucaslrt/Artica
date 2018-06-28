@@ -28,17 +28,17 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnEndDrag(PointerEventData eventData) {
         this.transform.SetParent(originalParent);
-
-        this.transform.position = originalParent.transform.position;
         currentPosition = this.transform.position;
-        //CreateNewItemOnCurrentPosition();
+        this.transform.position = originalParent.transform.position;
+        CreateNewItemOnCurrentPosition();
     }
 
     private void CreateNewItemOnCurrentPosition() {
 
-        GameObject newItem = Instantiate(new GameObject());
-        newItem.transform.position = currentPosition;
+        GameObject newItem = (GameObject) Instantiate(Resources.Load("Prefabs/Item"));
+        newItem.transform.SetParent(originalParent);
         newItem.GetComponent<ItemData>().item = this.item;
         newItem.GetComponent<Image>().sprite = this.item.Sprite;
+        newItem.transform.position = currentPosition;
     }
 }
