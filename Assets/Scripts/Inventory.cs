@@ -24,9 +24,8 @@ public class Inventory : MonoBehaviour {
             items.Add(new Item());
             slots.Add(Instantiate(inventorySlot));
             slots[i].transform.SetParent(slotPanel.transform);
+            AddItem(i);
         }
-
-        AddItem(0);
     }
 
     public void AddItem(int id) {
@@ -51,12 +50,4 @@ public class Inventory : MonoBehaviour {
             }
         }
     }
-
-    /*void CheckIfItemIsInInventory(Item item) {
-        for(int i = 0; i < items.Count; i++) {
-            if(items[i].Id == item.Id) {
-
-            }
-        }
-    }*/
 }

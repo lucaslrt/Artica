@@ -211,8 +211,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Drum
+  - name: Drum1
     clip: {fileID: 8300000, guid: 3dc73bcec8948f543b80905ba8b11b5f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Drum2
+    clip: {fileID: 8300000, guid: 9141cdbd2892dc847ba55bfe273a1106, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Drum3
+    clip: {fileID: 8300000, guid: 9401ae2ea62fba54ab67b134d81d9a21, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Drum4
+    clip: {fileID: 8300000, guid: e785738cad7f72240ba9239b3680337f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Drum5
+    clip: {fileID: 8300000, guid: 7ee650d85a214d34c952b08e96bfcf73, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Drum6
+    clip: {fileID: 8300000, guid: 979b1a8931d8f524da6adc2b9b5a8ac8, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Bass1
+    clip: {fileID: 8300000, guid: 0c70d00a2a4db9441a73e013978d02a7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Bass2
+    clip: {fileID: 8300000, guid: 8ed779367b823a14b89d6afb58eb54e8, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Bass3
+    clip: {fileID: 8300000, guid: 54c23af633da34f4db1eb78e2c361270, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flute1
+    clip: {fileID: 8300000, guid: 101cfa944cfaad848af7783706658ae5, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flute2
+    clip: {fileID: 8300000, guid: cbd225ac1d11c6e4fb0112065850a52a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flute3
+    clip: {fileID: 8300000, guid: c5dc82e1283ece44ebe41c109d81ca94, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Organ1
+    clip: {fileID: 8300000, guid: 2d5535d235f4eab46be55db47cbd04d4, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Organ2
+    clip: {fileID: 8300000, guid: c2f54f8c4ee5da844a33f6f2c4f69050, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Organ3
+    clip: {fileID: 8300000, guid: c3ca50cd005a8bf4c8c2902f2bc9e392, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
@@ -565,8 +635,8 @@ MonoBehaviour:
   m_ChildAlignment: 7
   m_StartCorner: 1
   m_StartAxis: 1
-  m_CellSize: {x: 60, y: 60}
-  m_Spacing: {x: 20, y: 20}
+  m_CellSize: {x: 70, y: 70}
+  m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &1121810295

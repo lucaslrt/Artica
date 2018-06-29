@@ -2,6 +2,76 @@
 	{
 		"id": 0,
 		"title": "Square",
-		"sound": "Drum"
+		"sound": "Drum1"
+	},
+	{
+		"id": 1,
+		"title": "Circle",
+		"sound": "Drum2"
+	},
+	{
+		"id": 2,
+		"title": "Line",
+		"sound": "Drum3"
+	},
+	{
+		"id": 3,
+		"title": "Line2",
+		"sound": "Drum4"
+	},
+	{
+		"id": 4,
+		"title": "Losango",
+		"sound": "Drum5"
+	},
+	{
+		"id": 5,
+		"title": "Pyramid",
+		"sound": "Drum6"
+	},
+	{
+		"id": 6,
+		"title": "Hexagon",
+		"sound": "Flute1"
+	},
+	{
+		"id": 7,
+		"title": "Espiral",
+		"sound": "Flute2"
+	},
+	{
+		"id": 8,
+		"title": "Cube",
+		"sound": "Flute3"
+	},
+	{
+		"id": 9,
+		"title": "Ball",
+		"sound": "Organ1"
+	},
+	{
+		"id": 10,
+		"title": "EscherTriangle",
+		"sound": "Organ2"
+	},
+	{
+		"id": 11,
+		"title": "Crescent",
+		"sound": "Organ3"
+	},
+	{
+		"id": 12,
+		"title": "Elipse",
+		"sound": "Bass1"
+	},
+	{
+		"id": 13,
+		"title": "Cylinder",
+		"sound": "Bass2"
+	},
+	{
+		"id": 14,
+		"title": "Octahedron",
+		"sound": "Bass3"
 	}
 ]
