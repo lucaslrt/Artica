@@ -22,6 +22,8 @@ public class PlayerLineManager : MonoBehaviour {
 
         Debug.Log("Object collided: " + collision.gameObject.name);
         Debug.Log("Sound of the object: " + collision.GetComponent<ItemData>().item.Sound);
+
+        FindObjectOfType<AudioManager>().Play(collision.GetComponent<ItemData>().item.Sound);
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {

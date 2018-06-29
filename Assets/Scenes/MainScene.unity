@@ -210,7 +210,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 565e3c807b908d445a75ede6d8a310f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Drum
+    clip: {fileID: 8300000, guid: 3dc73bcec8948f543b80905ba8b11b5f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &543028767
 GameObject:
   m_ObjectHideFlags: 0
