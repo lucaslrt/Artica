@@ -240,11 +240,11 @@ RectTransform:
   - {fileID: 1099256213}
   - {fileID: 1068454628}
   m_Father: {fileID: 1240709533}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 359.5, y: 0.000024796}
+  m_AnchoredPosition: {x: 361, y: 0.000024796}
   m_SizeDelta: {x: -718.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &543028769
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 609793669}
   - component: {fileID: 609793671}
   - component: {fileID: 609793670}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Player Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ RectTransform:
   m_Children:
   - {fileID: 1162433765}
   m_Father: {fileID: 1240709533}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -650,7 +650,8 @@ GameObject:
   - component: {fileID: 1162433768}
   - component: {fileID: 1162433767}
   - component: {fileID: 1162433766}
-  m_Layer: 5
+  - component: {fileID: 1162433770}
+  m_Layer: 8
   m_Name: Player Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +685,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -714,7 +715,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -753,6 +754,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1162433764}
+--- !u!114 &1162433770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162433764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36850435d996034b84afcae6b40ee75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1240709529
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,8 +851,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 543028768}
   - {fileID: 609793669}
+  - {fileID: 543028768}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

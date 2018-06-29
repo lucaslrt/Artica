@@ -39,6 +39,10 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         newItem.transform.SetParent(originalParent);
         newItem.GetComponent<ItemData>().item = this.item;
         newItem.GetComponent<Image>().sprite = this.item.Sprite;
+        newItem.AddComponent<Rigidbody2D>();
+        newItem.GetComponent<Rigidbody2D>().gravityScale = 0;
+        newItem.AddComponent<BoxCollider2D>();
+
         newItem.transform.position = currentPosition;
     }
 }
